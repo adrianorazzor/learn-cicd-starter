@@ -32,4 +32,3 @@ func respondWithJSON(w http.ResponseWriter, code int, payload interface{}) {
 		log.Printf("Error writing response: %s", err)
 	}
 }
-
